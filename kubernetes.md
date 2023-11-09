@@ -10,3 +10,9 @@ kubectl delete pods --all -n [namespace]
 ```bash
 kubectl delete namespace [your-namespace]
 ```
+
+## Detalhes de um pod por namespace
+
+```bash
+kubectl describe pod {pod-name} -n {namespace-name}
+```
